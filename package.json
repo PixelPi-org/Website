@@ -20,7 +20,7 @@
     "dotenv": "^8.2.0"
   },
   "scripts": {
-    "start": "next server.js",
+    "start": "next start",
     "build": "next build",
     "dev": "next dev",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm run build:tailwind && npm run dev",
